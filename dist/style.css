@@ -1,0 +1,305 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face{
+	src: url('fonts/Neou.ttf');
+	font-family: 'Neou';
+}
+
+@font-face{
+	src: url('fonts/Nutmeg-Black.ttf');
+	font-family: 'Nutmeg Black';
+}
+
+/*====  SideBar Menu  ====*/
+
+.ui.top.menu.borderless {
+  height: 70px;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  background-color: transparent;
+  transition: 0.2s;
+}
+.ui.top.menu.borderless.scrolled {
+  -webkit-box-shadow: 0px 2px 9px -2px rgba(212, 212, 212, 1);
+  -moz-box-shadow: 0px 2px 9px -2px rgba(212, 212, 212, 1);
+  box-shadow: 0px 2px 9px -2px rgba(212, 212, 212, 1);
+  transition: 0.2s;
+  background-color: #fff;
+}
+
+.ui.container.grid.center.aligned.top.sidebar.menu.borderless {
+  padding-top: 70px;
+  z-index: 10;
+  background-color: transparent;
+  color: white;
+}
+.ui.container.grid.center.aligned.top.sidebar.menu.borderless.scrolled {
+  background-color: white;
+}
+.ui.container.grid.center.aligned.top.sidebar.menu.borderless
+  .item.secondaryMenu.scrolled,
+.window.minimize.outline.icon.large.scrolled {
+  color: black;
+}
+.ui.container.grid.center.aligned.top.sidebar.menu.borderless
+  .item.secondaryMenu,
+.window.minimize.outline.icon.large {
+  color: white;
+}
+
+.nav {
+  justify-content: center;
+}
+.window.minimize.outline.icon.large {
+  transform: rotate(90deg);
+  margin-left: 1.2vw;
+}
+
+/*====  Home  ====*/
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(#1842ff, #000000);
+  animation: gradientFade 10s ease infinite;
+  background-size: 400% 400%;
+  -webkit-box-shadow: 0px 5px 19px 0px rgba(163, 163, 163, 1);
+  -moz-box-shadow: 0px 5px 19px 0px rgba(163, 163, 163, 1);
+  box-shadow: 0px 5px 19px 0px rgba(163, 163, 163, 1);
+}
+
+.ui.container.logo h1 {
+  font-family: "Nutmeg Black";
+  font-size: 6vw;
+  margin-bottom: 0;
+  color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+}
+
+.headerText {
+  font-family: Neou;
+  letter-spacing: 7px;
+  font-size: 1.1vw;
+  color: white;
+}
+.headerText2 {
+  font-family: Neou;
+  letter-spacing: 7px;
+  font-size: 8px;
+  color: white;
+}
+.sixteen.wide.column.logoImg.center.aligned{
+  height: 85vh;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*====  Scroll Mouse  ====*/
+.sixteen.wide.center.aligned.column.scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scroll img {
+  width: 30px;
+  height: auto;
+}
+.scroll span {
+  color: white;
+  font-family: Neou;
+}
+
+/*====  Section  ====*/
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 8% 10%;
+}
+.six.wide.column.logo img {
+  width: 100%;
+}
+.six.wide.column.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*====  Information  ====*/
+
+.information {
+  padding: 5% 10%;
+  padding-top: 10%;
+  font-family: Neou;
+  background-color: #f8f8f8;
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(163, 163, 163, 1);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(163, 163, 163, 1);
+  box-shadow: 0px 0px 19px 0px rgba(163, 163, 163, 1);
+}
+.information i {
+  margin-bottom: 30px;
+}
+.infoText {
+  padding: 5%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/*====  Information Card ====*/
+#infoCard {
+  transition: 0.2s;
+  padding: 2%;
+}
+#infoCard:hover {
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(207, 207, 207, 1);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(207, 207, 207, 1);
+  box-shadow: 0px 5px 15px 0px rgba(207, 207, 207, 1);
+  transition: 0.2s;
+  margin-top: -10px;
+  background-color: #fff;
+}
+#infoCard:hover i {
+  color: blue;
+  transition: 0.2s;
+}
+#infoCard i {
+  transition: 0.2s;
+  margin: 0;
+}
+
+/*====  Card Information (Statistics)  ====*/
+.cardInfo {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(207, 207, 207, 1);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(207, 207, 207, 1);
+  box-shadow: 0px 5px 15px 0px rgba(207, 207, 207, 1);
+}
+.ui.statistics {
+  padding: 5%;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  background-color: #09133f;
+}
+.statistic .label,
+.statistic .value {
+  color: white !important;
+}
+
+/*====  Contact  ====*/
+
+.contact {
+  background-color: #f8f8f8;
+  padding: 5%;
+  padding-top: 10%;
+}
+.contact i {
+  margin: 0 10px;
+}
+#contactText {
+  font-size: 1.1vw;
+}
+
+/*====  Footer  ====*/
+
+.footer .row {
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-family: Neou;
+}
+
+/*====  Background Modal Shape  ====*/
+
+.custom-shape-divider-bottom-1600400488 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1600400488 svg {
+  position: relative;
+  display: block;
+  width: calc(106% + 100.3px);
+  height: 204px;
+}
+
+.custom-shape-divider-bottom-1600400488 .shape-fill {
+  fill: #0f0a3a;
+}
+
+/*====  BG Animation  ====*/
+
+@keyframes gradientFade {
+  0% {
+    background-position: 47% 0%;
+  }
+  50% {
+    background-position: 47% 100%;
+  }
+  100% {
+    background-position: 47% 0%;
+  }
+}
+
+/*====  Media Queries  ====*/
+
+@media screen and (max-width: 767px) {
+  .headerText {
+    font-size: 2vw;
+  }
+  .ui.container.grid.center.aligned.top.sidebar.menu.borderless .item {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .ui.container.grid.center.aligned.top.sidebar.menu.borderless {
+    background-color: rgb(0, 0, 0, 50%);
+  }
+  .window.minimize.outline.icon.large {
+    margin-left: 5vw;
+  }
+  .ui.container.logo h1 {
+    font-size: 10vw;
+  }
+  .headerText2 {
+    font-size: 5px;
+  }
+  .information {
+    padding: 10% 10%;
+  }
+  .six.wide.column.logo img {
+    width: 50%;
+  }
+  .section {
+    padding-top: 20%;
+  }
+  #infoCard .twelve.wide.column.left.aligned.middle.aligned {
+    text-align: center;
+  }
+  #contactText {
+    font-size: 2vw;
+  }
+}

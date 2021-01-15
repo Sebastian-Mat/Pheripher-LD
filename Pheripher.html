@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pheripher</title>
+    <link rel="stylesheet" type="text/css" href="dist/semantic.min.css" />
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="icon" href="dist/imgPheripher/pheripher2.png" />
+  </head>
+  <body>
+    <!--  SideBar Menu  -->
+
+    <div class="ui top borderless main fixed menu">
+      <div class="ui container nav">
+        <a class="item">
+          <i class="window minimize outline icon large"></i>
+        </a>
+      </div>
+    </div>
+    <div
+      class="ui stackable container grid center aligned top sidebar secondary menu borderless"
+    >
+      <a class="item secondaryMenu" href="#home">Home</a>
+      <a class="item secondaryMenu" href="#section">About Us</a>
+      <a class="item secondaryMenu" href="#information">Services</a>
+      <a class="item disabled secondaryMenu">Statistics</a>
+      <a class="item secondaryMenu" href="#contact">Contact</a>
+    </div>
+
+    <!--  Content  -->
+
+    <div class="pusher">
+      <!--  Home  -->
+
+      <div class="home" id="home">
+        <div class="ui container grid logo">
+          <div class="sixteen wide column logoImg center aligned">
+            <div class="row headerRow">
+              <h1 id="title">Pheripher</h1>
+              <p class="headerText">Crypto Web</p>
+              <p class="headerText2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique, iure?
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sixteen wide center aligned column scroll">
+              <a href="#section"
+                ><img src="dist/imgPheripher/mouse.svg" alt="" class="mouse"
+              /></a>
+              <span>Sroll down for more</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  Section  -->
+
+      <div class="section" id="section">
+        <!--  Information Pheripher -->
+
+        <div class="ui container grid center aligned stackable">
+          <div class="six wide column logo centered">
+            <img
+              src="dist/imgPheripher/pheripher2.png"
+              alt=""
+              id="logo"
+            />
+          </div>
+          <div
+            class="ten wide column center aligned middle aligned"
+            style="padding: 5% 10%"
+            id="textInfo"
+          >
+            <h1 style="font-family: 'Bebas Neue'; font-size: 60px">
+              Pheripher
+            </h1>
+            <p style="font-family: Neou">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+              quidem, tempore inventore atque beatae molestiae pariatur totam
+              aut quos corrupti voluptate dolore itaque minus dignissimos culpa,
+              maxime aliquid nam autem.
+            </p>
+            <button
+              class="ui blue inverted button circular large"
+              id="button-modal"
+            >
+              Join with us
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!--  Information  -->
+
+      <div class="information" id="information">
+        <!--  Services  -->
+
+        <div class="ui container stackable grid center aligned">
+          <h1 style="font-family: 'Bebas Neue'; font-size: 60px">Services</h1>
+          <div class="row">
+            <div class="eight wide column" id="infoCard">
+              <div class="ui grid stackable">
+                <div class="four wide column">
+                  <i class="clock outline icon huge"></i>
+                </div>
+                <div
+                  class="twelve wide column left aligned middle aligned middle aligned"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, aperiam?
+                </div>
+              </div>
+            </div>
+            <div class="eight wide column" id="infoCard">
+              <div class="ui grid stackable">
+                <div class="four wide column middle aligned">
+                  <i class="user outline icon huge"></i>
+                </div>
+                <div class="twelve wide column left aligned middle aligned">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, aperiam?
+                </div>
+              </div>
+            </div>
+            <div class="eight wide column" id="infoCard">
+              <div class="ui grid stackable">
+                <div class="four wide column">
+                  <i class="dollar icon huge"></i>
+                </div>
+                <div class="twelve wide column left aligned middle aligned">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, aperiam?
+                </div>
+              </div>
+            </div>
+            <div class="eight wide column" id="infoCard">
+              <div class="ui grid stackable">
+                <div class="four wide column middle aligned">
+                  <i class="chart line icon huge"></i>
+                </div>
+                <div class="twelve wide column left aligned middle aligned">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, aperiam?
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row infoText">
+          <div class="sixteen wide column">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              eveniet quia aut laboriosam repellendus ipsam incidunt, id odit
+              quasi vero eligendi hic dignissimos illum iusto? Culpa recusandae
+              fuga voluptas tempore!
+            </p>
+          </div>
+        </div>
+        <div class="ui divider"></div>
+
+        <!--  Information Card Statistics  -->
+        <div class="row" style="padding: 5% 0%" id="cardInfo">
+          <div
+            class="sixteen column"
+            style="display: flex; justify-content: center"
+          >
+            <div class="cardInfo">
+              <div class="five column">
+                <img src="dist/imgPheripher/wall.jpg" class="ui image" alt="" />
+                <div class="ui statistics stackable">
+                  <div class="statistic">
+                    <div class="value" id="number">100</div>
+                    <div class="label">Members</div>
+                  </div>
+                  <div class="statistic">
+                    <div class="value" id="number">74</div>
+                    <div class="label">Coins</div>
+                  </div>
+                  <div class="statistic">
+                    <div class="value" id="number">2,109</div>
+                    <div class="label">Users</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row center aligned ui grid">
+            <h1
+              style="
+                text-align: center;
+                margin: 0;
+                padding-top: 5%;
+                font-family: 'Bebas Neue';
+              "
+            >
+              Around the World
+            </h1>
+            <p style="padding: 0% 5%; padding-top: 0; text-align: center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+              dolore aliquam similique? Sunt aliquam, doloribus exercitationem
+              quo magni natus animi?
+            </p>
+            <button class="ui blue inverted button circular large">
+              See more
+            </button>
+          </div>
+        </div>
+        <div class="ui divider"></div>
+
+        <!--  Contact  -->
+        <div class="contact" id="contact">
+          <div class="ui grid container stackable">
+            <div class="nine wide column">
+              <div class="row">
+                <p
+                  style="
+                    font-family: Neou;
+                    text-align: center;
+                    margin-bottom: 40px;
+                  "
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Natus.
+                </p>
+              </div>
+              <div
+                class="row"
+                style="margin-bottom: 40px; padding: 0% 5%"
+                id="infoContact"
+              >
+                <div class="ui grid">
+                  <div class="row middle aligned">
+                    <div
+                      class="eleven wide column left aligned"
+                      id="contactText"
+                    >
+                      <i class="icon phone blue big"></i>+99 1010101010
+                    </div>
+                    <div class="five wide column right aligned">
+                      <button class="circular ui icon button blue">
+                        <i class="icon facebook f large"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row middle aligned">
+                    <div class="eleven wide column" id="contactText">
+                      <i class="icon map marker alternate blue big"></i>Main St.
+                      #00-11 Lorem Ipsum
+                    </div>
+                    <div class="five wide column right aligned">
+                      <button class="circular ui icon button blue">
+                        <i class="icon instagram large"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row middle aligned">
+                    <div class="eleven wide column" id="contactText">
+                      <i class="icon envelope blue big"></i>LoremIpsum@lorem.ip
+                    </div>
+                    <div class="five wide column right aligned">
+                      <button class="circular ui icon button blue">
+                        <i class="icon whatsapp large"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+                style="
+                  justify-content: center;
+                  align-items: center;
+                  display: flex;
+                "
+              >
+                <div class="ui card" style="width: 70%" id="card">
+                  <div class="content">
+                    <div class="center aligned header">Owner</div>
+                    <div class="center aligned description">
+                      <p>Sr. Lorem Ip.</p>
+                    </div>
+                  </div>
+                  <div class="extra content">
+                    <div class="center aligned author">
+                      <img
+                        class="ui avatar image"
+                        src="https://semantic-ui.com/images/avatar/small/steve.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="seven wide column middle aligned center aligned"
+              id="softing"
+            >
+              <div class="row">
+                <h1 style="font-family: 'Bebas Neue'; font-size: 60px">
+                  JOIN INTO SOFTING
+                </h1>
+              </div>
+              <a href="https://www.softingpro.com.co">
+                <img
+                  src="dist/imgPheripher/softingpro.png"
+                  alt=""
+                  style="width: 70%; height: auto; margin: 20px 0"
+                />
+              </a>
+              <p style="font-family: Neou">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  Footer  -->
+      <div class="footer ui center aligned">
+        <div class="row">
+          © Copyright Pheripher. All Rights Reserved<br />Made with Semantic-UI
+        </div>
+      </div>
+    </div>
+
+    <!--  Modal  -->
+    <div class="ui modal container grid center aligned">
+      <i class="close icon"></i>
+      <div class="header">Be part of our team</div>
+      <form
+        class="ui form stackable centered container"
+        style="padding: 5%; z-index: 5"
+      >
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          repudiandae voluptates eveniet incidunt commodi voluptate impedit,
+          omnis non nam est nesciunt quam quaerat magni nihil nulla harum
+          dolores quibusdam qui! Repellat ipsam earum provident aliquam mollitia
+          autem natus asperiores eum.
+        </p>
+        <div class="two fields">
+          <div class="field">
+            <label>First Name</label>
+            <input type="text" name="first-name" placeholder="First Name" />
+          </div>
+          <div class="field">
+            <label>Last Name</label>
+            <input type="text" name="last-name" placeholder="Last Name" />
+          </div>
+        </div>
+        <div class="field">
+          <label>E-mail</label>
+          <input type="text" name="e-mail"" placeholder="E-mail" />
+        </div>
+        <div class="field">
+          <div class="ui slider checkbox">
+            <input type="checkbox" tabindex="0" class="hidden" />
+            <label>I agree to the Terms and Conditions</label>
+          </div>
+        </div>
+        <button class="ui button circular blue" type="submit">Submit</button>
+      </form>
+      <div
+        class="custom-shape-divider-bottom-1600400488"
+        style="padding-left: 0"
+      >
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="dist/semantic.min.js"></script>
+    <script src="dist/app.js"></script>
+  </body>
+</html>
